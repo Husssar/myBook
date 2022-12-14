@@ -1,0 +1,25 @@
+Okay, so for each IoT manufacturer that thinks their own protocol is
+better than others. S T O P creating your own way. There are already
+standards from different protocols that can be used.
+
+Last day I looked at a company who made their own way of presenting
+data. 
+	
+	0x01 | Temperature | 4 bytes | float.
+
+Honestly, 32 bits for a temperature that is presented according to
+documentation as 12,34. That's pretty typical IoT. One dedidated
+developer, that maybe creating both Hardware and Software. But there
+is no one for the person converned to think
+
+All this shit is doing, is creating about 12397567651239767723781232
+different message parsers, that each integration has to implement in
+their own system. Is this really healthy? Do we really get speed from
+this? Oh yes, some companies provide a parser "to get you started". 
+So? It still just adds one more parser, for each integrator to work with
+so now there is 12397567651239767723781233. 
+
+My suggestion? Look into MBus, DLMS or whatever standard that already
+exists. Follow it, and we can get digitalization and speed. And honestly
+the best one I really like. OMS. https://oms-group.org/en/
+
