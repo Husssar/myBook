@@ -1,0 +1,49 @@
+How I worked as a Product Owner
+
+When I started as a Product Owner, I really lived for the products we
+was creating. There was some problems with the hardware, some problems
+with the software, as it always will be. 
+
+My first thing to do was to implement a feature, where the PM told us
+"minimal effort". So we designed it, whith a arcitecture that it should
+send data with MQTT and would be completly REST based.
+
+The MQTT was a feature we wanted to implement, to also support the 
+future integrations with other partners. But as the PM didn't know about
+MQTT, and it was "minimal effort" hard stamped in red, we didn't add it.
+And all the other things was also minimal effort. This feature, was
+having problems all the time, until I quit that job.
+
+So what I learned from this, my first feature as a Product Owner?
+When PM want to do something, with minimal effort. I will probably say 
+No next time. If we are going to implement something, I will need 100%
+dedication on it. 
+
+I as a Product Owner need to have a product that is easily maintained.
+This is not a thing that I am given. This is hard work from the team and
+having a culture that creates code that is easy to read. easy to test, 
+easy to build. Easy to update. 
+
+No, a PM should and will never be writing test. And should not. 
+
+There is some functions, that always should make the software to work, even
+though there is a bad software released. Trust me, I released many bad
+software, and will do. But the team learns. 
+
+We will produce bad softwares sometime. It will happen. There will 
+ALWAYS be functions that is not tested 100%. But, there _SHOULD_ never be
+same errors again. And our test areas, should be easily to test. I will
+always have a software for interested people to test, either if there is
+internal or for external, the latest commited code. Not at the commited
+day, but the day after. This creates transparansy to stakeholders. With 
+transparansy we creates trust, and buzz.
+
+Me as a Person, is not a Hardware or Software developer. I'm a person that
+having a helicopter perspective. With this perspecitve, I now when and who
+to speak with in organisation. If it is logistics, sales or PM. I'm the one 
+taking the shit if there is something bad we released. But WE are the ones
+when we delivering on time and with accepted tests. 
+
+When a new sprint is created, I will be accepting when a sprint goes on a
+other direction. The sprint plan, is just a plan. We should always aim to 
+succeed with the plan, 
