@@ -5,5 +5,5 @@ Second is having special chars, but often we don't need special chars in passwor
 
 > openssl rand -base64 32
 
-> < /dev/urandom tr -dc _A-Z-a-z-0-9-\!-\&-\? | head -c32
+> < /dev/urandom tr -dc _A-Z-a-z-0-9-\\!-\\&-\\? | head -c32
 
