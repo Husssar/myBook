@@ -1,4 +1,4 @@
-# Simple password genrator from linux
+# Simple password generator from linux
 
 Two simple ways. One need to have openssl, but is quick to do.
 Second is having special chars, but often we don't need special chars in passwords. Just length...
