@@ -1,6 +1,10 @@
 #/bin/bash
 
-tar_files=$(find . -type f -name "*.tar")
+# Script using all files ending with .tar.gz
+# and executes specific extracted folder to one folder.
+# Can easily be modified with just remove "var/logs"
+
+tar_files=$(find . -type f -name "*.tar.gz")
 
 for tar_file in $tar_files
 do
